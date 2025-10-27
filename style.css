@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: poppins;
+}
+.cabeca{
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 15px;
+}
+a{
+    color: aliceblue;
+}
+
+.historia{
+    display: flex;
+
+    align-items: center; 
+    justify-content: center;
+    padding: 20px; 
+    gap: 30px; 
+}
+
+.tituloimg {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+.descricao {
+    max-width: 500px; 
+}
+.geralArtistas{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.artistas2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.caixas{
+    background-color: rgb(68, 177, 100);
+    width: 300px;
+    border-radius: 8px;
+    padding: 15px;
+ 
+        display: inline-block;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.2s;
+      
+}
+.caixas:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+img{
+    border-radius: 8px;
+}
+.rodape {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
+
+.rodape .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.rodape h3, 
+.rodape h4 {
+    margin-bottom: 10px;
+    color: #f7c945; /* tom dourado suave que combina com MPB */
+}
+
+.rodape p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px 0;
+}
+
+.rodape li {
+    margin: 6px 0;
+}
+
+.rodape a {
+    color: #f7c945;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.rodape a:hover {
+    color: #fff;
+}
+
+.rodape .creditos {
+    font-size: 13px;
+    color: #ccc;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+/* ===== CABEÇALHO ===== */
+.cabeca {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+/* Faz com que o VOLTAR fique à esquerda e o HOME à direita */
+.header-container {
+    display: flex;
+    justify-content: space-between;  /* elementos nas pontas */
+    align-items: center;             /* centralizados verticalmente */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+

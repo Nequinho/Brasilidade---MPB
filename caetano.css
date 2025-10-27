@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cabeca {
+    background-color: #222;
+    padding: 15px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direita a {
+    margin-left: 20px;
+}
+
+a {
+    color: #f7c945;
+    text-decoration: none;
+}
+
+.milton {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.miltonDescreve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.albuns {
+    background-color: rgb(53, 196, 65);
+    padding: 40px 0;
+    color: aliceblue;
+}
+
+.albuns-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.album-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    max-width: 450px;
+    flex-grow: 1;
+}
+
+.album-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-info h3 {
+    margin: 0 0 5px 0;
+}
+
+.album-info p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.rodape {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rodape .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.rodape h3, 
+.rodape h4 {
+    margin-bottom: 10px;
+    color: #f7c945;
+}
+
+.rodape p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px 0;
+}
+
+.rodape li {
+    margin: 6px 0;
+}
+
+.rodape a {
+    color: #f7c945;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.rodape a:hover {
+    color: #fff;
+}
+
+.rodape .creditos {
+    font-size: 13px;
+    color: #ccc;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.rodape {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 25px 0 15px 0;  /* padding mais compacto */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;           /* elimina o espaço entre conteúdo e rodapé */
+}
+
+.albuns {
+    background-color: rgb(53, 196, 65);
+    padding: 30px 0;         /* levemente reduzido para suavizar a transição */
+    color: #dfdfdf;
+}
+
+.milton {
+    background-color: #fff;
+    padding: 0;              /* remove espaçamento extra no final da seção branca */
+}
