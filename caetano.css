@@ -61,7 +61,6 @@ a {
     align-items: flex-start;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 .album-item {
@@ -71,13 +70,11 @@ a {
     gap: 20px;
     max-width: 450px;
     flex-grow: 1;
-    flex-wrap: wrap;
 }
 
 .album-info {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .album-info h3 {
@@ -161,4 +158,5 @@ a {
     background-color: #fff;
     padding: 0;              /* remove espaçamento extra no final da seção branca */
 }
+
 
