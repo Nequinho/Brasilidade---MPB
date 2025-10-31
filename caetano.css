@@ -45,7 +45,7 @@ a {
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .albuns {
@@ -157,4 +157,5 @@ a {
     background-color: #fff;
     padding: 0;              /* remove espaçamento extra no final da seção branca */
 }
+
 
