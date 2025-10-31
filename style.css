@@ -35,6 +35,7 @@ a{
 
 .descricao {
     max-width: 500px; 
+    flex-wrap: wrap;
 }
 .geralArtistas{
     display: flex;
@@ -138,6 +139,7 @@ img{
     padding: 0 20px;
     box-sizing: border-box;
 }
+
 
 
 
