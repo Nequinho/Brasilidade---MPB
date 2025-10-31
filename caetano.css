@@ -20,7 +20,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .direita a {
@@ -46,7 +45,6 @@ a {
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
-    flex-wrap: wrap;
 }
 
 .albuns {
@@ -158,5 +156,6 @@ a {
     background-color: #fff;
     padding: 0;              /* remove espaçamento extra no final da seção branca */
 }
+
 
 
